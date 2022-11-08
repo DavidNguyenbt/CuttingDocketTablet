@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/window"
+    android:id="@+id/layoutchoose">
+    <Button
+        android:text="BẮT ĐẦU QUÉT QR CODE"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/btchoosescan" />
+    <EditText
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/btchoosescan"
+        android:id="@+id/edbarcode" />
+    <Button
+        android:text="BẮT ĐẦU THỦ CÔNG"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/edbarcode"
+        android:id="@+id/btchoosemanual" />
+    <Button
+        android:text="ĐỔI MẬT KHẨU"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/btchoosemanual"
+        android:id="@+id/btchoosechangepass" />
+</RelativeLayout>

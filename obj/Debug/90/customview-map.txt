@@ -1,0 +1,70 @@
+adaptive-icon;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher.xml
+adaptive-icon;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
+androidhud.ProgressWheel;G:\C#\Do an AllianceOne\Software F1\CuttingDocketTablet\CuttingDocketTablet\obj\Debug\90\lp\2\jl\res\layout\loadingprogress.xml
+attr;G:\C#\Do an AllianceOne\Software F1\CuttingDocketTablet\CuttingDocketTablet\obj\Debug\90\lp\2\jl\res\values\attrs.xml
+background;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher.xml
+background;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
+Button;obj\Debug\90\res\layout\activity_main.xml
+Button;obj\Debug\90\res\layout\choose.xml
+Button;obj\Debug\90\res\layout\flash.xml
+Button;obj\Debug\90\res\layout\maindocket.xml
+Button;obj\Debug\90\res\layout\serverconfig.xml
+cache-path;G:\C#\Do an AllianceOne\Software F1\CuttingDocketTablet\CuttingDocketTablet\obj\Debug\90\lp\43\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+color;obj\Debug\90\res\values\colors.xml
+color;obj\Debug\90\res\values\ic_launcher_background.xml
+corners;G:\C#\Do an AllianceOne\Software F1\CuttingDocketTablet\CuttingDocketTablet\obj\Debug\90\lp\2\jl\res\drawable\roundedbg.xml
+corners;G:\C#\Do an AllianceOne\Software F1\CuttingDocketTablet\CuttingDocketTablet\obj\Debug\90\lp\2\jl\res\drawable\roundedbgdark.xml
+declare-styleable;G:\C#\Do an AllianceOne\Software F1\CuttingDocketTablet\CuttingDocketTablet\obj\Debug\90\lp\2\jl\res\values\attrs.xml
+EditText;obj\Debug\90\res\layout\activity_main.xml
+EditText;obj\Debug\90\res\layout\choose.xml
+EditText;obj\Debug\90\res\layout\serverconfig.xml
+external-cache-path;G:\C#\Do an AllianceOne\Software F1\CuttingDocketTablet\CuttingDocketTablet\obj\Debug\90\lp\43\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-files-path;obj\Debug\90\res\xml\file_paths.xml
+external-path;G:\C#\Do an AllianceOne\Software F1\CuttingDocketTablet\CuttingDocketTablet\obj\Debug\90\lp\43\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+foreground;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher.xml
+foreground;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
+FrameLayout;G:\C#\Do an AllianceOne\Software F1\CuttingDocketTablet\CuttingDocketTablet\obj\Debug\90\lp\44\jl\res\layout\zxingscanneractivitylayout.xml
+FrameLayout;G:\C#\Do an AllianceOne\Software F1\CuttingDocketTablet\CuttingDocketTablet\obj\Debug\90\lp\44\jl\res\layout\zxingscannerfragmentlayout.xml
+gradient;G:\C#\Do an AllianceOne\Software F1\CuttingDocketTablet\CuttingDocketTablet\obj\Debug\90\lp\2\jl\res\drawable\roundedbg.xml
+gradient;G:\C#\Do an AllianceOne\Software F1\CuttingDocketTablet\CuttingDocketTablet\obj\Debug\90\lp\2\jl\res\drawable\roundedbgdark.xml
+HorizontalScrollView;obj\Debug\90\res\layout\maindocket.xml
+HorizontalScrollView;obj\Debug\90\res\layout\serverconfig.xml
+ImageView;G:\C#\Do an AllianceOne\Software F1\CuttingDocketTablet\CuttingDocketTablet\obj\Debug\90\lp\2\jl\res\layout\loadingimage.xml
+item;obj\Debug\90\res\values\styles.xml
+LinearLayout;G:\C#\Do an AllianceOne\Software F1\CuttingDocketTablet\CuttingDocketTablet\obj\Debug\90\lp\2\jl\res\layout\loading.xml
+LinearLayout;G:\C#\Do an AllianceOne\Software F1\CuttingDocketTablet\CuttingDocketTablet\obj\Debug\90\lp\2\jl\res\layout\loadingimage.xml
+LinearLayout;G:\C#\Do an AllianceOne\Software F1\CuttingDocketTablet\CuttingDocketTablet\obj\Debug\90\lp\2\jl\res\layout\loadingprogress.xml
+LinearLayout;obj\Debug\90\res\layout\flash.xml
+ListView;obj\Debug\90\res\layout\maindocket.xml
+paths;G:\C#\Do an AllianceOne\Software F1\CuttingDocketTablet\CuttingDocketTablet\obj\Debug\90\lp\43\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+paths;obj\Debug\90\res\xml\file_paths.xml
+ProgressBar;G:\C#\Do an AllianceOne\Software F1\CuttingDocketTablet\CuttingDocketTablet\obj\Debug\90\lp\2\jl\res\layout\loading.xml
+RadioButton;obj\Debug\90\res\layout\activity_main.xml
+RelativeLayout;obj\Debug\90\res\layout\activity_main.xml
+RelativeLayout;obj\Debug\90\res\layout\choose.xml
+RelativeLayout;obj\Debug\90\res\layout\maindocket.xml
+RelativeLayout;obj\Debug\90\res\layout\serverconfig.xml
+resources;G:\C#\Do an AllianceOne\Software F1\CuttingDocketTablet\CuttingDocketTablet\obj\Debug\90\lp\0\jl\res\values\strings.xml
+resources;G:\C#\Do an AllianceOne\Software F1\CuttingDocketTablet\CuttingDocketTablet\obj\Debug\90\lp\2\jl\res\values\attrs.xml
+resources;G:\C#\Do an AllianceOne\Software F1\CuttingDocketTablet\CuttingDocketTablet\obj\Debug\90\lp\2\jl\res\values\strings.xml
+resources;G:\C#\Do an AllianceOne\Software F1\CuttingDocketTablet\CuttingDocketTablet\obj\Debug\90\lp\5\jl\res\values\strings.xml
+resources;obj\Debug\90\res\values\colors.xml
+resources;obj\Debug\90\res\values\ic_launcher_background.xml
+resources;obj\Debug\90\res\values\styles.xml
+resources;obj\Debug\90\res\values\strings.xml
+ScrollView;obj\Debug\90\res\layout\maindocket.xml
+ScrollView;obj\Debug\90\res\layout\serverconfig.xml
+shape;G:\C#\Do an AllianceOne\Software F1\CuttingDocketTablet\CuttingDocketTablet\obj\Debug\90\lp\2\jl\res\drawable\roundedbg.xml
+shape;G:\C#\Do an AllianceOne\Software F1\CuttingDocketTablet\CuttingDocketTablet\obj\Debug\90\lp\2\jl\res\drawable\roundedbgdark.xml
+style;obj\Debug\90\res\values\styles.xml
+string;G:\C#\Do an AllianceOne\Software F1\CuttingDocketTablet\CuttingDocketTablet\obj\Debug\90\lp\0\jl\res\values\strings.xml
+string;G:\C#\Do an AllianceOne\Software F1\CuttingDocketTablet\CuttingDocketTablet\obj\Debug\90\lp\2\jl\res\values\strings.xml
+string;G:\C#\Do an AllianceOne\Software F1\CuttingDocketTablet\CuttingDocketTablet\obj\Debug\90\lp\5\jl\res\values\strings.xml
+string;obj\Debug\90\res\values\strings.xml
+TextView;G:\C#\Do an AllianceOne\Software F1\CuttingDocketTablet\CuttingDocketTablet\obj\Debug\90\lp\2\jl\res\layout\loading.xml
+TextView;G:\C#\Do an AllianceOne\Software F1\CuttingDocketTablet\CuttingDocketTablet\obj\Debug\90\lp\2\jl\res\layout\loadingimage.xml
+TextView;G:\C#\Do an AllianceOne\Software F1\CuttingDocketTablet\CuttingDocketTablet\obj\Debug\90\lp\2\jl\res\layout\loadingprogress.xml
+TextView;obj\Debug\90\res\layout\activity_main.xml
+TextView;obj\Debug\90\res\layout\flash.xml
+TextView;obj\Debug\90\res\layout\maindocket.xml
+TextView;obj\Debug\90\res\layout\serverconfig.xml

@@ -1,0 +1,405 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>A1ATeam</name>
+    </assembly>
+    <members>
+        <member name="T:A1ATeam.ScreenStretching">
+            <summary>
+            A1A Programming Team
+            </summary>
+        </member>
+        <member name="M:A1ATeam.ScreenStretching.Initiatal(System.Int32,System.Int32,System.Int32,Android.Views.ViewGroup)">
+            <summary>
+            Co giản Layout theo thiết bị màn hình.
+            </summary>
+            <param name="ScaleParent"></param>
+            <param name="defaultWidth"></param>
+            <param name="defaulHeight"></param>
+            <param name="viewGroup"></param>
+        </member>
+        <member name="T:A1ATeam.ListViewAdapterWithNoLayout">
+            <summary>
+            Custom Adapter cho ListView (Thiết kế bởi NVC - A1A Digital Team)
+            </summary>
+        </member>
+        <member name="F:A1ATeam.ListViewAdapterWithNoLayout.SetMargin">
+            <summary>
+            Set margin for the component. (Left, Right, Top, Bottom)
+            </summary>
+        </member>
+        <member name="F:A1ATeam.ListViewAdapterWithNoLayout.SumOfValue">
+            <summary>
+            Return the result of the caclulation.
+            </summary>
+        </member>
+        <member name="F:A1ATeam.ListViewAdapterWithNoLayout.DefaulWidth">
+            <summary>
+            Set default width for Column.
+            </summary>
+        </member>
+        <member name="P:A1ATeam.ListViewAdapterWithNoLayout.DefaulHeight">
+            <summary>
+            Set default height for Column.
+            </summary>
+        </member>
+        <member name="P:A1ATeam.ListViewAdapterWithNoLayout.ApplyHeightForHeader">
+            <summary>
+            Apply the height for Header.
+            </summary>
+        </member>
+        <member name="F:A1ATeam.ListViewAdapterWithNoLayout.ShowValue">
+            <summary>
+            Set value for spectified Object
+            </summary>
+        </member>
+        <member name="F:A1ATeam.ListViewAdapterWithNoLayout.ClickedItem">
+            <summary>
+            Return the list of ListView which has been clicked.
+            </summary>
+        </member>
+        <member name="F:A1ATeam.ListViewAdapterWithNoLayout.CheckedBox">
+            <summary>
+            Return the list of the CheckBox position which has been checked.
+            </summary>
+        </member>
+        <member name="F:A1ATeam.ListViewAdapterWithNoLayout.ListCheckedBox">
+            <summary>
+            Return the list of CheckBox. (Only use Touch Events for your condition)
+            </summary>
+        </member>
+        <member name="P:A1ATeam.ListViewAdapterWithNoLayout.BackGroundColor">
+            <summary>
+            BackGroundColor cho ListView
+            </summary>
+        </member>
+        <member name="P:A1ATeam.ListViewAdapterWithNoLayout.TextColor">
+            <summary>
+            TextColor cho ListView
+            </summary>
+        </member>
+        <member name="P:A1ATeam.ListViewAdapterWithNoLayout.TextSize">
+            <summary>
+            TextSize cho ListView
+            </summary>
+        </member>
+        <member name="P:A1ATeam.ListViewAdapterWithNoLayout.Combine">
+            <summary>
+            Combine A vs B.
+            </summary>
+        </member>
+        <member name="P:A1ATeam.ListViewAdapterWithNoLayout.ColumnIndexSetTextAlignment">
+            <summary>
+            Spectify the column set TextAlignment Center.
+            </summary>
+        </member>
+        <member name="P:A1ATeam.ListViewAdapterWithNoLayout.CombineColor1">
+            <summary>
+            The color for View when combining A vs B and the result is A is equal to B.
+            </summary>
+        </member>
+        <member name="P:A1ATeam.ListViewAdapterWithNoLayout.CombineColor2">
+            <summary>
+            The color for View when combining A vs B and the result is A is bigger than B.
+            </summary>
+        </member>
+        <member name="P:A1ATeam.ListViewAdapterWithNoLayout.CombineColor3">
+            <summary>
+            The color for View when combining A vs B and the result B is bigger than A.
+            </summary>
+        </member>
+        <member name="P:A1ATeam.ListViewAdapterWithNoLayout.CombineNull">
+            <summary>
+            The color for View when combining A vs B and the result B is null.
+            </summary>
+        </member>
+        <member name="P:A1ATeam.ListViewAdapterWithNoLayout.RowSetColor">
+            <summary>
+            Hi-line the specified rows.
+            </summary>
+        </member>
+        <member name="P:A1ATeam.ListViewAdapterWithNoLayout.Clicked">
+            <summary>
+            Hi_line the item when it clicked.
+            </summary>
+        </member>
+        <member name="P:A1ATeam.ListViewAdapterWithNoLayout.HeaderTextAlignment">
+            <summary>
+            Set TextAlignment Center for Header Text.
+            </summary>
+        </member>
+        <member name="P:A1ATeam.ListViewAdapterWithNoLayout.CheckBox">
+            <summary>
+            Add the CheckBox into the begin of the layout.
+            </summary>
+        </member>
+        <member name="P:A1ATeam.ListViewAdapterWithNoLayout.ClickedItemColor">
+            <summary>
+            Hi_line color when Item has been clicked.
+            </summary>
+        </member>
+        <member name="P:A1ATeam.ListViewAdapterWithNoLayout.SumValueOfColumn">
+            <summary>
+            Sum the value of the specified column.
+            </summary>
+        </member>
+        <member name="P:A1ATeam.ListViewAdapterWithNoLayout.Index">
+            <summary>
+            Provide the specified column need to set the background color.
+            </summary>
+        </member>
+        <member name="P:A1ATeam.ListViewAdapterWithNoLayout.SetCellColor">
+            <summary>
+            If True then cells have the Value more than the reference value will set the background color, else the column will set the background color.
+            </summary>
+        </member>
+        <member name="P:A1ATeam.ListViewAdapterWithNoLayout.CellValue">
+            <summary>
+            The reference value of the Cell.
+            </summary>
+        </member>
+        <member name="P:A1ATeam.ListViewAdapterWithNoLayout.SetIndexColor">
+            <summary>
+            Provide the color for the specified cell or column.
+            </summary>
+        </member>
+        <member name="P:A1ATeam.ListViewAdapterWithNoLayout.ColumnGravity">
+            <summary>
+            Set the gravity for column text.
+            </summary>
+        </member>
+        <member name="P:A1ATeam.ListViewAdapterWithNoLayout.SetRowColor">
+            <summary>
+            Collect row index and set color for them.
+            </summary>
+        </member>
+        <member name="P:A1ATeam.ListViewAdapterWithNoLayout.CellColor">
+            <summary>
+            Set color for the specify cell.
+            </summary>
+        </member>
+        <member name="M:A1ATeam.ListViewAdapterWithNoLayout.#ctor(System.Data.DataTable,System.Collections.Generic.List{System.Int32},System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+            <summary>
+            Tạo ra một Custom Adapter cho ListView theo dữ liệu truyền vào
+            <list type="table" >
+            <item>
+            <description>DataTable : dữ liệu đích</description>
+            </item>
+            <item>
+            <description>List : danh sách List bao gồm độ rộng của các cột (chiều dài của List có thể ít hơn hoặc bằng số cột trong DataTable, nếu chỉ có một thì sẽ áp dụng cho tất cả các cột)</description>
+            </item>
+            <item>
+            <description>ShowHeader : hiển thị tên cột</description>
+            </item>
+            <item>
+            <description>Background : nếu True thì BackgoundColor sẽ chọn màu ngẫu nhiên và ngược lại sẽ chọn màu cố định ban đầu</description>
+            </item>  
+            </list>
+            Custom Adapter cho ListView (Thiết kế bởi NVC - A1A Digital Team)
+            <param name="DataTable"></param>
+            <param name="List"></param>
+            <param name="ShowHeader"></param>
+            <param name="Background"></param>
+            <param name="TextCenter"></param>
+            <param name="CombineNull"></param>
+            </summary> 
+        </member>
+        <member name="T:A1ATeam.ListViewAdapterWithLayout">
+            <summary>
+            Custom Adapter cho ListView (Thiết kế bởi NVC - A1A Digital Team)
+            </summary>
+        </member>
+        <member name="P:A1ATeam.ListViewAdapterWithLayout.BackGroundColor">
+            <summary>
+            BackGroundColor cho ListView.
+            </summary>
+        </member>
+        <member name="P:A1ATeam.ListViewAdapterWithLayout.TextColor">
+            <summary>
+            TextColor cho ListView.
+            </summary>
+        </member>
+        <member name="P:A1ATeam.ListViewAdapterWithLayout.TextSize">
+            <summary>
+            TextSize cho ListView.
+            </summary>
+        </member>
+        <member name="P:A1ATeam.ListViewAdapterWithLayout.ListBackground">
+            <summary>
+            Background randow.
+            </summary>
+        </member>
+        <member name="M:A1ATeam.ListViewAdapterWithLayout.#ctor(Android.Views.ViewGroup,System.Data.DataTable,System.Boolean)">
+            <summary>
+            Tạo ra một Custom Adapter cho ListView theo dữ liệu truyền vào
+            <list type="table" >
+            <item>
+            <description>DataTable : dữ liệu đích</description>
+            </item>
+            <item>
+            <description>List : danh sách List bao gồm độ rộng của các cột (chiều dài của List có thể ít hơn hoặc bằng số cột trong DataTable, nếu chỉ có một thì sẽ áp dụng cho tất cả các cột)</description>
+            </item>
+            <item>
+            <description>ShowHeader : hiển thị tên cột</description>
+            </item>
+            <item>
+            <description>Background : nếu True thì BackgoundColor sẽ chọn màu ngẫu nhiên và ngược lại sẽ chọn màu cố định ban đầu</description>
+            </item>  
+            </list>
+            <param name="viewGroup"></param>
+            Custom Adapter cho ListView (Thiết kế bởi NVC - A1A Digital Team)
+            <param name="DataTable"></param>
+            <param name="Background"></param>
+            </summary> 
+        </member>
+        <member name="M:A1ATeam.ListViewAdapterWithLayout.GetListOfTextView">
+            <summary>
+            Trả về danh sách các TextView.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:A1ATeam.ListViewAdapterWithLayout.GetListOfEditText">
+            <summary>
+            Trả về danh sách các EditText.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:A1ATeam.ListViewAdapterWithLayout.GetListOfButton">
+            <summary>
+            Trả về danh sách các Button.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:A1ATeam.ListViewAdapterWithLayout.GetListOfRadioButton">
+            <summary>
+            Trả về danh sách các RadioButton.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:A1ATeam.ListViewAdapterWithLayout.GetListOfCheckBox">
+            <summary>
+            Trả về danh sách các CheckBox.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:A1ATeam.ListViewAdapterWithLayout.GetListOfImageView">
+            <summary>
+            Trả về danh sách các ImageView.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:A1ATeam.ShowImage">
+            <summary>
+            Download image from URL and show on the screen.
+            </summary>
+        </member>
+        <member name="M:A1ATeam.ShowImage.#ctor">
+            <summary>
+            Get URL of image.
+            </summary>
+            <param name="ImageURL"></param>
+        </member>
+        <member name="M:A1ATeam.ShowImage.#ctor(System.String)">
+            <summary>
+            Get URL of image.
+            </summary>
+            <param name="ImageURL"></param>
+        </member>
+        <member name="M:A1ATeam.ShowImage.Show">
+            <summary>
+            Display image.
+            </summary>
+        </member>
+        <member name="M:A1ATeam.ShowImage.ShowIDE">
+            <summary>
+            Display image.
+            </summary>
+            
+        </member>
+        <member name="T:A1ATeam.LayoutRequest">
+            <summary>
+            Call and resize the layout size.
+            </summary>
+        </member>
+        <member name="M:A1ATeam.LayoutRequest.#ctor(System.Int32,System.Int32,System.Single)">
+            <summary>
+            Initialize the LayoutRequest
+            </summary>
+            <param name="Rong"></param>
+            <param name="Cao"></param>
+            <param name="Density"></param>
+        </member>
+        <member name="M:A1ATeam.LayoutRequest.Steching(Android.Views.ViewGroup)">
+            <summary>
+            Resize the layout size.
+            </summary>
+            <param name="layout"></param>
+        </member>
+        <member name="M:A1ATeam.LayoutRequest.Height(System.Int32)">
+            <summary>
+            Return the height.
+            </summary>
+            <param name="h"></param>
+            <returns></returns>
+        </member>
+        <member name="M:A1ATeam.LayoutRequest.Widht(System.Int32)">
+            <summary>
+            Return the width.
+            </summary>
+            <param name="w"></param>
+            <returns></returns>
+        </member>
+        <member name="M:A1ATeam.LayoutRequest.TextSize(System.Single)">
+            <summary>
+            Return the text size.
+            </summary>
+            <param name="s"></param>
+            <returns></returns>
+        </member>
+        <member name="M:A1ATeam.LayoutRequest.eHeight(System.Int32)">
+            <summary>
+            Return the height.(With no currenty density)
+            </summary>
+            <param name="h"></param>
+            <returns></returns>
+        </member>
+        <member name="M:A1ATeam.LayoutRequest.eWidht(System.Int32)">
+            <summary>
+            Return the width.(With no currenty density)
+            </summary>
+            <param name="w"></param>
+            <returns></returns>
+        </member>
+        <member name="M:A1ATeam.LayoutRequest.eTextSize(System.Single)">
+            <summary>
+            Return the text size.(With no currenty density)
+            </summary>
+            <param name="s"></param>
+            <returns></returns>
+        </member>
+        <member name="T:A1ATeam.FullScreen">
+            <summary>
+            Set full screen, hide navigation.
+            </summary>
+        </member>
+        <member name="M:A1ATeam.NgayThang.SQLFormat1(System.DateTime)">
+            <summary>
+            Convert DateTime to string to insert Server without Hour.
+            </summary>
+            <param name="d"></param>
+            <returns></returns>
+        </member>
+        <member name="M:A1ATeam.NgayThang.SQLFormat2(System.DateTime)">
+            <summary>
+            Convert DateTime to string to insert Server within Hour.
+            </summary>
+            <param name="d"></param>
+            <returns></returns>
+        </member>
+        <member name="T:A1ATeam.RowColor">
+            <summary>
+            Set color for specified row in the List.
+            </summary>
+        </member>
+    </members>
+</doc>

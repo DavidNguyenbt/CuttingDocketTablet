@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CSDL</name>
+    </assembly>
+    <members>
+        <member name="T:CSDL.Connect">
+            <summary>
+            Connect to SQL Server. (Kết nối tới máy chủ SQL.)
+            Designed by Nguyen Van Cho
+            </summary>
+        </member>
+        <member name="M:CSDL.Connect.#ctor(System.String)">
+            <summary>
+            Create one connection to SQL Server using the input connection string. (Tạo một kết nối tới máy chủ SQL bằng chuỗi kết nối truyền vào.)
+            </summary>
+            <param name="c"></param>
+        </member>
+        <member name="M:CSDL.Connect.Doc(System.String,System.Int32)">
+            <summary>
+            Collect data from the server and return a Dataset(). (Thu thập dữ liệu từ máy chủ và trả về một Dataset().)
+            </summary>
+            <param name="c"></param>
+            <param name="TimeOut"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CSDL.Connect.Ghi(System.String,System.Int32)">
+            <summary>
+            Write the collected data to the server. (Ghi dữ liệu thu thập được lên máy chủ.)
+            </summary>
+            <param name="c"></param>
+            <param name="TimeOut"></param>
+        </member>
+        <member name="M:CSDL.Connect.KiemTra(System.String,System.Int32)">
+            <summary>
+            Check the existence of a data stream in SQL Table. Returns '1' as exist, '0' is nonexistent and '2' is a connection error.(Kiểm tra sự tồn tại một dòng dữ liệu trong SQL Table. Trả về '1' là tồn tại, '0' là không tồn tại và '2' là lỗi kết nối.)
+            </summary>
+            <param name="c"></param>
+            <param name="TimeOut"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CSDL.Connect.Proc(System.String,System.Collections.Generic.List{System.String},System.Int32)">
+            <summary>
+            Returns a Dataset() from the server. ProcName is the name Procedure in SQL, 
+            ListParameters includes Parameter Name and Value separated by '=' with the same character string (@ parameter = value).
+            (Trả về một Dataset() từ máy chủ. ProcName là tên Procedure trong SQL, 
+            ListParameters bao gồm Parameter Name và Value phân cách với nhau bằng dấu '=' cùng trong một chuỗi ký tự (@parameter=value).)
+            </summary>
+            <param name="ProcName"></param>
+            <param name="ListParameters"></param>
+            <param name="TimeOut"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CSDL.Connect.SqlBulkCopy(System.Data.DataTable,System.String)">
+            <summary>
+            Write the collected data to the server by SqlBulkCopy. (Ghi dữ liệu thu thập được lên máy chủ - SqlBulkCopy.)
+            </summary>
+            <param name="dt"></param>
+            <param name="DestinationTableName"></param>
+        </member>
+        <member name="T:CSDL.Parameters">
+            <summary>
+            Custom parameter for SQL Procedure.
+            </summary>
+        </member>
+        <member name="M:CSDL.BangDuLieu.ToList(System.Data.DataRow)">
+            <summary>
+            Return the list from the data of DataRow.
+            </summary>
+            <param name="Dr"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CSDL.BangDuLieu.ToArray(System.Data.DataRow)">
+            <summary>
+            Return the array from the data of DataRow.
+            </summary>
+            <param name="Dr"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CSDL.BangDuLieu.GetString(System.Data.DataRow,System.String)">
+            <summary>
+            Get all column data to a string.
+            </summary>
+            <param name="Dr"></param>
+            <param name="Separate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CSDL.BangDuLieu.ColumnNameToArray(System.Data.DataTable)">
+            <summary>
+            Convert DataColumnName to Array
+            </summary>
+            <param name="Dt"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CSDL.BangDuLieu.ColumnNameToList(System.Data.DataTable)">
+            <summary>
+            Convert DataColumnName to List
+            </summary>
+            <param name="Dt"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CSDL.BangDuLieu.DateTimeToSQL(System.DateTime,System.Boolean)">
+            <summary>
+            Standardization the Date format for uploading to SQL Server.
+            </summary>
+            <param name="Date"></param>
+            <param name="Hour"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CSDL.BangDuLieu.GetString(System.Collections.Generic.List{System.String},System.String)">
+            <summary>
+            Convert all item (string) of List to a string
+            </summary>
+            <param name="Ls"></param>
+            <param name="Separate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CSDL.BangDuLieu.GetString(System.Collections.Generic.List{System.Object},System.String)">
+            <summary>
+            Convert all item (object) of List to a string
+            </summary>
+            <param name="Ls"></param>
+            <param name="Separate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CSDL.BangDuLieu.GetString(System.Collections.Generic.List{System.Int32},System.String)">
+            <summary>
+            Convert all item (int) of List to a string
+            </summary>
+            <param name="Ls"></param>
+            <param name="Separate"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

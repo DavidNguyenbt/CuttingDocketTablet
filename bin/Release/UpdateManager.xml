@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UpdateManager</name>
+    </assembly>
+    <members>
+        <member name="T:UpdateManager.RequestInit">
+            <summary>
+            Request a iInnitialization a class for update the new application.
+            </summary>
+        </member>
+        <member name="M:UpdateManager.RequestInit.Init(Android.App.Activity)">
+            <summary>
+            Innitialize a class for update the new application.
+            </summary>
+            <param name="activity"></param>
+        </member>
+        <member name="T:UpdateManager.Update">
+            <summary>
+            A class contains check and update the application.
+            </summary>
+        </member>
+        <member name="M:UpdateManager.Update.CheckUpdate(Android.Content.Context,System.Boolean,System.Boolean,Android.App.AlertDialog.Builder,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Check to update the application
+            </summary>
+            <param name="_Obligatory"></param>
+            <param name="dialog"></param>
+            <param name="_LinkUpdateAPP"></param>
+            <param name="_DownloadAppName"></param>
+            <param name="_DialogTitle"></param>
+            <param name="_DialogMessage1"></param>
+            <param name="_DialogMessage2"></param>
+            <param name="_PossitiveButtonName"></param>
+            <param name="_NegativeButtonName"></param>
+            <param name="ClickOrNot"></param>
+        </member>
+    </members>
+</doc>

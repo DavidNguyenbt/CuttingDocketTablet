@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <SelectedDevice>tablet_m-dpi_10_1in_pie_9_0_-_api_28</SelectedDevice>
+    <DefaultDevice>tablet_m-dpi_10_1in_pie_9_0_-_api_28</DefaultDevice>
+    <AndroidDesignerPreferredTheme>AppTheme</AndroidDesignerPreferredTheme>
+    <AndroidDesignerPreferredDevice>10.1in WXGA %28Tablet%29</AndroidDesignerPreferredDevice>
+    <ActiveDebugProfile>Tablet M-DPI 10.1in Pie 9.0 - API 28 %28Android 9.0 - API 28%29</ActiveDebugProfile>
+    <SelectedPlatformGroup>Emulator</SelectedPlatformGroup>
+  </PropertyGroup>
+</Project>
